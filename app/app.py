@@ -1,6 +1,6 @@
 import requests
 import json
-from main.model_manager import ModelManager
+from app.model_manager import ModelManager
 from fastapi import FastAPI, Depends
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
