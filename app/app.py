@@ -10,6 +10,7 @@ import pandas as pd
 from catboost import CatBoostClassifier
 import numpy as np
 import pathlib
+import uvicorn
 
 
 app = FastAPI()
